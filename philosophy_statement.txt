@@ -1,0 +1,8 @@
+OPEN SOURCE PHILOSOPHY STATEMENT
+--------------------------------
+Date: March 27, 2026
+
+As an auditor in the Open Source ecosystem, my work is driven by Learning.
+I acknowledge that I am standing on the shoulders of Richard Stallman, whose contributions
+made this audit possible. To me, the most vital aspect of software is the freedom
+To study the code, ensuring that technology remains a public utility for all.

@@ -105,3 +105,57 @@ git push origin main --force
 history
 nano system_welcome.sh
 nano check_git.sh
+nano system_welcome.sh
+nano dir_audit.sh
+nano log_scanner.sh
+nano philosophy_gen.sh
+chmod +x system_welcome.sh
+chmod +x check_git.sh
+chmod +x dir_audit.sh
+chmod +x log_scanner.sh
+chmod +x philosophy_gen.sh
+ls -l *.sh
+git add system_welcome.sh check_git.sh dir_audit.sh log_scanner.sh philosophy_gen.sh
+git init
+git add system_welcome.sh check_git.sh dir_audit.sh log_scanner.sh philosophy_gen.sh
+git commit -m "Initial audit suite setup"
+git remote add origin https://github.com/adyaaa16/oss-audit-24BAI10264.git
+git push -u origin main
+git add .
+git commit -m "Finalizing 5 audit scripts for submission"
+git branch -M main
+git push -u origin main
+git add system_welcome.sh check_git.sh dir_audit.sh log_scanner.sh philosophy_gen.sh
+git commit -m "Add complete suite of 5 automated audit scripts for Git project"
+git add .
+git commit -m "Add complete suite of 5 automated audit scripts for Git project"
+rm -rf oss_git_audit/.git
+git rm --cached oss_git_audit
+git add .
+git commit -m "Resolved submodule conflict and added 5 audit scripts"
+git push origin main
+git push https://adyaaa16@github.com/adyaaa16/oss-audit-24BAI10264.git main
+git config --global user.name "Adya Gupta"
+git config --global user.email "9c.adyagupta@gmail.com"
+git commit --amend --author="Adya Gupta <9c.adyagupta@gmail.com>" --no-edit
+git config --global user.name "adyaaa16"
+git config --global user.email "9c.adyagupta@gmail.com"
+git commit --amend --reset-author --no-edit
+git push origin main --force
+nano README.md
+git add README.md
+git commit -m "Add professional README with student info and usage instructions"
+git push origin main
+clear
+echo "ERROR: Unauthorized access attempt" > audit.log
+./log_scanner.sh audit.log
+clear
+ls -l
+mkdir ~/new-audit-repo
+cp ~/oss-audit-24BAI10264/*.sh ~/oss-audit-24BSA10310/
+cd ~/oss-audit-24BSA10310
+mkdir ~/oss-audit-24BSA10310
+cp ~/oss-audit-24BAI10264/*.sh ~/oss-audit-24BSA10310/
+git remote add origin https://github.com/arjunraj-17/oss-audit-24BSA10310.git
+git branch -M main
+git push -u origin main
